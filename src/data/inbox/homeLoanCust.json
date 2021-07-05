@@ -1,0 +1,10 @@
+{
+  "CustInfo":{
+    "nationalID":"A234567",
+    "firstName":"Sammy",
+    "lastName":"Femi",
+    "age":"32",
+    "occupation":"Junior Java Developer",
+    "infotype":"LoanCustomer"
+  }
+}

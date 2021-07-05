@@ -1,0 +1,55 @@
+{
+  "CustomerDetails": {
+    "customerID" : "34567",
+    "ssoId":"56789",
+    "title": "Mr",
+    "accountStatus":"active",
+    "forename": "Joe",
+    "surname": "Bloggs",
+    "customerType": "test",
+    "parentBrand":"some otherOne?",
+    "homeBrand": "123R",
+    "baseCurrency": "GBP",
+    "baseLanguage": "en-gb",
+    "ipAddress":"127.0.0.1",
+    "vatDetails": {
+      "vatBand": "C_D_P",
+      "vatVerified": "true",
+      "vatEvidence": "2"
+    },
+    "contactDetails": {
+      "emails": [{
+        "emailLabel":"Prim",
+        "email": "joe@example.com",
+        "emailType": "PRIMARY"
+      }],
+      "phoneNumbers": [{
+        "phoneLabel": "Mobile",
+        "phoneNumber": "0118 999 881 999 119 725 3",
+        "phoneType": "SECONDARY"
+      },
+        {
+          "phoneLabel": "Home",
+          "phoneNumber": "0118 999 881 999 119 725 3 ",
+          "phoneType": "PRIMARY"
+        }]
+    },
+    "addresses": [{
+      "addressLabel": "Home Address",
+      "addressType": "PRIMARY",
+      "addr1": "123 This Street",
+      "city": "This Town",
+      "county": "County Quiet",
+      "countryID": "GB",
+      "postcode": "QU13 7ER"
+    },
+      {
+        "addressLabel": "Work Address",
+        "addressType": "BILLING",
+        "addr1": "89 Graft End",
+        "city": "That Town",
+        "county": "County Hell",
+        "postcode": "HE11 99FM"
+      }]
+  }
+}
